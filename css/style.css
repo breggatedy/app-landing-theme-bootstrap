@@ -1,0 +1,148 @@
+* {
+    #border: 1px solid red;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.navStyle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+.navbar {
+    border: 0 !important;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.heroTitle {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.navbar-default {
+    background-color:transparent;
+}
+
+.perSection {
+    padding-bottom: 50px;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+h1 {
+    font-size: 3em;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: Grey;
+}
+
+h2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: Grey;
+}
+
+h3 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: Grey;
+}
+
+h4 {
+    padding-top: 15px;
+    #padding-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: Grey;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.8;
+    color: Grey;
+}
+
+.social-icons li {
+    display: inline;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: Grey;
+    background: none;
+    padding: 15px;
+}
+
+.btn:focus {
+    outline: none !important;
+}
+
+.outline {
+    border: 2px solid #FFC80A;
+    border-radius: 25px;
+
+}
+
+.outline:active, .outline:focus, .active:focus, .outline .active .focus{
+    box-shadow: none;
+    color: Black;
+}
+
+.name-team {
+    font-family: 'Arvo', serif;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
+.job-team {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: Grey;
+    letter-spacing: 3px;
+    padding-bottom: 15px
+}
+
+.bio-team {
+    font-family: 'Open Sans', sans-serif;
+    color: #9FA3A7;
+    font-size: 10px;
+    line-height: 1.8;
+    padding-bottom: 15px;
+}
+
+.email-team {
+    font-family: 'Open Sans', sans-serif;
+    color: Grey;
+    font-size: 10px;
+}
+
+.quote-test {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #58627C;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-bottom: 50px;
+}
