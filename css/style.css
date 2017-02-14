@@ -5,6 +5,10 @@
     -moz-box-sizing: border-box;
 }
 
+body {
+    padding-top: 70px;
+}
+    
 .navStyle {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
@@ -12,10 +16,15 @@
 }
 
 .navbar {
+    -webkit-box-shadow: 0px 3px 10px -6px rgba(173,173,173,1);
+    -moz-box-shadow: 0px 3px 10px -6px rgba(173,173,173,1);
+    box-shadow: 0px 3px 10px -6px rgba(173,173,173,1);
+    
     border: 0 !important;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .heroTitle {
@@ -24,21 +33,31 @@
 }
 
 .navbar-default {
-    background-color:transparent;
+    #background-color:transparent;
+    background: rgba(255,255,255,0.85);
 }
 
 .perSection {
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .no-gutter > [class*='col-'] {
+    padding-top: 0;
+    padding-bottom: 0;
     padding-right:0;
     padding-left:0;
 }
 
+.divider {
+    position: relative;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 h1 {
-    font-size: 3em;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 15px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -46,8 +65,8 @@ h1 {
 }
 
 h2 {
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: Grey;
@@ -55,27 +74,27 @@ h2 {
 
 h3 {
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: Grey;
 }
 
 h4 {
-    padding-top: 15px;
-    #padding-bottom: 0px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    color: Grey;
-}
-
-p {
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: mediumseagreen;
+}
+
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 13px;
-    line-height: 1.8;
+    font-size: 15px;
+    line-height: 1.7;
     color: Grey;
 }
 
