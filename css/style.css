@@ -26,9 +26,13 @@ body {
     padding-bottom: 10px;
 }
 
+.active {
+    background-color: red !important;
+}
+
 .heroTitle {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .navbar-default {
@@ -36,9 +40,29 @@ body {
     background: rgba(255,255,255,0.85);
 }
 
+.the-blur{
+   position: fixed;
+   top:0;
+   width: 100%;
+   min-height: 50px;
+   margin-bottom: 20px;
+   background: rgba(0,0,0,.4);
+   z-index:1010;
+   -webkit-filter: blur(20px);
+   -moz-filter: blur(20px);
+   -o-filter: blur(20px);
+   -ms-filter: blur(20px);
+   filter: blur(20px);
+}
+
 .perSection {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.perSection-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .no-gutter > [class*='col-'] {
@@ -46,6 +70,16 @@ body {
     padding-bottom: 0;
     padding-right:0;
     padding-left:0;
+}
+
+.circle-bg {
+    {
+    position: relative;
+    display: block;
+    bottom: 2em;
+    margin: 0 auto;
+    z-index: 100;
+}
 }
 
 .divider {
@@ -60,7 +94,7 @@ h1 {
     padding-bottom: 15px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: Grey;
+    #color: Grey;
 }
 
 h2 {
@@ -87,6 +121,10 @@ h4 {
     color: mediumseagreen;
 }
 
+c {
+    color: indianred
+}
+
 p {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -94,34 +132,46 @@ p {
     font-weight: 300;
     font-size: 15px;
     line-height: 1.7;
-    color: Grey;
+    #color: Grey;
 }
 
 .social-icons li {
     display: inline;
 }
 
+.overFlow {
+    overflow: hidden;
+}
+
 .btn {
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-    letter-spacing: 3px;
-    color: Grey;
-    background: none;
-    padding: 15px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    background-color: mediumseagreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 30px;
 }
 
 .btn:focus {
     outline: none !important;
 }
 
+.btn:hover {
+    background: none;
+    color: mediumseagreen;
+}
+
 .outline {
     border: 2px solid #FFC80A;
-    border-radius: 25px;
-
+    #border-radius: 25px;
 }
 
 .outline:active, .outline:focus, .active:focus, .outline .active .focus{
     box-shadow: none;
+    
     color: Black;
 }
 
@@ -173,6 +223,47 @@ p {
     background-size: cover;
 }
 
+.hero-background-merchant{
+    background:url('../images/hero-background-merchant.png')no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero-background-faq{
+    background:url('../images/red-phone.jpg')no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero-background-mission{
+    background:url('../images/hero-background-mission.jpg')no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+hr {
+  #-moz-border-bottom-colors: none;
+  #-moz-border-image: none;
+  #-moz-border-left-colors: none;
+  #-moz-border-right-colors: none;
+  #-moz-border-top-colors: none;
+  border-color: mediumseagreen;
+  border-style: solid none;
+  border-width: 1px 0;
+  text-align: center;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #eaeaea;
+}
+
 .media-quote {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -221,4 +312,102 @@ p {
 .media-attribution em {
     font-style:normal;
     font-weight:bold;
+}
+
+.phone-download {
+    position: relative;
+    display: block;
+    bottom: -6em;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+.bs-five-area{
+    width:100%;
+    display: inline-block;
+    box-shadow: 0px 0px 6px 0px #ddd;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.bs-five-area.bs-radius{
+    border-radius: 30px;
+}
+.bs-five-area > div{
+    padding:0;
+}
+
+.bs-five-area .bs-five{
+    position: relative;
+    width: 100%;  
+    margin: auto; 
+    transition: all 0.4s;
+    padding:20px 0px;
+}
+
+.bs-five-area .bs-five h6{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.bs-five-area .bs-five h1{
+    font-size:64px;
+    font-weight: 100;
+    line-height: 72px;
+}
+
+.bs-five-area .bs-five h1 sup{
+    font-size:30px;
+    top:-30px;
+}
+
+.bs-five-area .bs-five ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.bs-five-area .bs-five ul li{
+    line-height: 45px;
+    border-bottom:0px;
+}
+
+.bs-five-area .bs-five:hover{
+
+    background: #179880; 
+    transition: all 0.4s;
+}
+
+.bs-five-area .bs-five.active {
+    background: #179880; 
+    background: -webkit-linear-gradient(left, #179880 , #21A476); 
+    background: -o-linear-gradient(right, #179880, #21A476); 
+    background: -moz-linear-gradient(right, #179880, #21A476); 
+    background: linear-gradient(to right, #179880 , #21A476);  
+}
+
+.bs-five-area .bs-five .btn-success{
+    padding: 10px 50px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #179880;
+    border-color: #21A476;
+}
+
+
+.bs-five-area .bs-five.active .btn.btn-success, 
+.bs-five-area .bs-five:hover.bs-five .btn.btn-success{
+    background: #E0FFF6 ; 
+    color:#444 ;
+
+}
+
+.bs-five-area .bs-five.active,
+.bs-five-area .bs-five.active ul li,
+.bs-five-area .bs-five:hover.bs-five, 
+.bs-five-area .bs-five:hover.bs-five ul li
+{
+    color:#fff;
 }
