@@ -26,6 +26,10 @@ body {
     padding-bottom: 10px;
 }
 
+.navbar-brand {
+    margin-top: -10px;
+}
+
 .active {
     background-color: red !important;
 }
@@ -73,13 +77,11 @@ body {
 }
 
 .circle-bg {
-    {
     position: relative;
     display: block;
-    bottom: 2em;
+    top: -3em;
     margin: 0 auto;
     z-index: 100;
-}
 }
 
 .divider {
@@ -94,7 +96,7 @@ h1 {
     padding-bottom: 15px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    #color: Grey;
+    color: Grey;
 }
 
 h2 {
@@ -119,10 +121,6 @@ h4 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: mediumseagreen;
-}
-
-c {
-    color: indianred
 }
 
 p {
@@ -317,9 +315,10 @@ hr {
 .phone-download {
     position: relative;
     display: block;
-    bottom: -6em;
+    bottom: -3em;
     margin: 0 auto;
     z-index: 100;
+    max-height: 150px;
 }
 
 .bs-five-area{
@@ -410,4 +409,10 @@ hr {
 .bs-five-area .bs-five:hover.bs-five ul li
 {
     color:#fff;
+}
+
+.popover-example .popover {
+  position: relative;
+  display: block;
+  margin: 0px auto;
 }
