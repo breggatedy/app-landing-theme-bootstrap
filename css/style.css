@@ -7,6 +7,7 @@
 
 body {
     #padding-top: 70px;
+    height: 100%;
 }
     
 .navStyle {
@@ -42,6 +43,34 @@ body {
 .navbar-default {
     #background-color:transparent;
     background: rgba(255,255,255,0.85);
+}
+
+.fun-numb {
+    font-size: 4em;
+    font-weight: 100;
+}
+
+.fun-data {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.divider-part{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  #font-family: "futura-pt";
+  #font-size: 3em;
+  #margin: 0 1em;
+}
+
+.divider-part::before{
+  content: '';
+  height: 1px;
+  background: lightgrey;
+  flex: 1;
+  #margin: 0 .25em 0 0;
 }
 
 .the-blur{
@@ -213,12 +242,35 @@ p {
     padding-bottom: 50px;
 }
 
+.jumbotron {
+   width: 100%;
+   height: 100vh;
+   min-height: 600px;
+   overflow-y: hidden;
+   color: white;
+   background-size: cover;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+}
+
+.object-fit{
+    object-fit: cover;
+    
+}
+
 .hero-background {
     background:url('../images/hero-background-fix.png')no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 100%;
+    #height: 100vh;
+    min-height: 600px;
+    #align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .hero-background-merchant{
