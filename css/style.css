@@ -213,7 +213,7 @@ p {
     font-size: 10px;
     color: Grey;
     letter-spacing: 3px;
-    padding-bottom: 15px
+    padding-bottom: 15px;
 }
 
 .bio-team {
@@ -228,6 +228,11 @@ p {
     font-family: 'Open Sans', sans-serif;
     color: Grey;
     font-size: 10px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
 
 .quote-test {
